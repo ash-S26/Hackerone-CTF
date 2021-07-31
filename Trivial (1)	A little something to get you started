@@ -1,0 +1,24 @@
+URL - http://35.227.24.107/87f638e8f1/
+PAGE DISPLAYS - Welcome to level 0. Enjoy your stay.
+NOW THERE DOES NOTM SEEMS TO BE MUCH INFORMATION DISPLAYING ON THE PAGE.
+LETS VIEW THE PAGE SOURCE CODE BY DOING Ctr+U
+
+THIS IS WHAT YOU CAN SEE :
+<!doctype html>
+<html>
+	<head>
+		<style>
+			body {
+				background-image: url("background.png");
+			}
+		</style>
+	</head>
+	<body>
+		<p>Welcome to level 0.  Enjoy your stay.</p>
+	</body>
+</html>
+
+IT SEEMS THAT THE PAGE IS REFERING TO SOME IMAGE NAME - background.png
+
+ON SEARCHING THE URL BY ADDING IMAGE NAME AT LAST - http://35.227.24.107/87f638e8f1/background.png
+GIVES THE FLAG - ^FLAG^09cd87390d03b0de1ce1d801cfe030b3fa97d6f5cc38c9d4bfa203e47e30e8ad$FLAG$
